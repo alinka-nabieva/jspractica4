@@ -1,6 +1,6 @@
 'use strict';
-let a = prompt('Введите a');
-let b = prompt('Введите b');
+let a = Number(prompt('Введите a'));
+let b = Number(prompt('Введите b'));
 alert(min(a, b));
 function min(a, b) {
     if (a < b) {
