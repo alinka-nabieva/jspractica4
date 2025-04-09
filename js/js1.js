@@ -1,6 +1,6 @@
 'use strict';
-let a = prompt('Ведите a');
-let b = prompt('Ведите b');
+let a = Number(prompt('Ведите a'));
+let b = Number(prompt('Ведите b'));
 number(a, b);
 function number(a, b) {
     for (let i = a; i < b; i++) {
